@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "fit_stepper_contents",
+  "info": {
+    "singularName": "fit-stepper-content",
+    "pluralName": "fit-stepper-contents",
+    "displayName": "Fit Stepper Content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "selectClothesTitle": {
+      "type": "string",
+      "required": true
+    },
+    "selectClothesSubtitle": {
+      "type": "string",
+      "required": true
+    },
+    "measurementsTitle": {
+      "type": "string",
+      "required": true
+    },
+    "measurementsSubtitle": {
+      "type": "string",
+      "required": true
+    },
+    "purchaseTitle": {
+      "type": "string",
+      "required": true
+    },
+    "purchaseSubtitle": {
+      "type": "string",
+      "required": true
+    }
+  }
+} 

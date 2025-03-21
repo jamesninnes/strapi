@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clothing_items",
+  "info": {
+    "singularName": "clothing-item",
+    "pluralName": "clothing-items",
+    "displayName": "Clothing Item"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true,
+      "min": 0
+    },
+    "inseam": {
+      "type": "decimal",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    }
+  }
+} 
