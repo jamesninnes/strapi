@@ -4,7 +4,7 @@ module.exports = {
   routes: [
     {
       method: 'GET',
-      path: '/api/clothing-items',
+      path: '/clothing-items',
       handler: 'clothing-item.find',
       config: {
         policies: [],
@@ -13,7 +13,7 @@ module.exports = {
     },
     {
       method: 'GET',
-      path: '/api/clothing-items/:id',
+      path: '/clothing-items/:id',
       handler: 'clothing-item.findOne',
       config: {
         policies: [],

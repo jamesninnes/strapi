@@ -4,7 +4,7 @@ module.exports = {
   routes: [
     {
       method: 'GET',
-      path: '/api/fit-stepper-content',
+      path: '/fit-stepper-content',
       handler: 'fit-stepper-content.find',
       config: {
         policies: [],
@@ -13,7 +13,7 @@ module.exports = {
     },
     {
       method: 'PUT',
-      path: '/api/fit-stepper-content',
+      path: '/fit-stepper-content',
       handler: 'fit-stepper-content.update',
       config: {
         policies: [],
